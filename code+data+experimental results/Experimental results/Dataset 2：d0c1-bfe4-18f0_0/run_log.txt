@@ -1,0 +1,1060 @@
+Mapped "mcs" to ordinal classes: M=4
+    class    level_value
+    _____    ___________
+
+      0         412.9   
+      1         458.8   
+      2         516.2   
+      3         573.5   
+
+===== Approx Params/MACs(FLOPs proxy), inference per sample =====
+         FIXED_params: 0
+            FIXED_MAC: 378
+       FEATURE_params: 4340
+          FEATURE_MAC: 4228
+           E2E_params: 24260
+              E2E_MAC: 24068
+       OURSNOB_params: 572
+          OURSNOB_MAC: 922
+    OURSFUSION_params: 12938
+       OURSFUSION_MAC: 13090
+
+Parsing CSI columns...
+  parsing csi_matrix_r0_c0:    469/  4697 (10.0%), elapsed 1.3s
+  parsing csi_matrix_r0_c0:    938/  4697 (20.0%), elapsed 1.7s
+  parsing csi_matrix_r0_c0:   1407/  4697 (30.0%), elapsed 2.1s
+  parsing csi_matrix_r0_c0:   1876/  4697 (39.9%), elapsed 2.5s
+  parsing csi_matrix_r0_c0:   2345/  4697 (49.9%), elapsed 3.0s
+  parsing csi_matrix_r0_c0:   2814/  4697 (59.9%), elapsed 3.4s
+  parsing csi_matrix_r0_c0:   3283/  4697 (69.9%), elapsed 3.8s
+  parsing csi_matrix_r0_c0:   3752/  4697 (79.9%), elapsed 4.2s
+  parsing csi_matrix_r0_c0:   4221/  4697 (89.9%), elapsed 4.7s
+  parsing csi_matrix_r0_c0:   4690/  4697 (99.9%), elapsed 5.1s
+  parsing csi_matrix_r0_c1:    469/  4697 (10.0%), elapsed 0.4s
+  parsing csi_matrix_r0_c1:    938/  4697 (20.0%), elapsed 0.8s
+  parsing csi_matrix_r0_c1:   1407/  4697 (30.0%), elapsed 1.2s
+  parsing csi_matrix_r0_c1:   1876/  4697 (39.9%), elapsed 1.6s
+  parsing csi_matrix_r0_c1:   2345/  4697 (49.9%), elapsed 2.0s
+  parsing csi_matrix_r0_c1:   2814/  4697 (59.9%), elapsed 2.4s
+  parsing csi_matrix_r0_c1:   3283/  4697 (69.9%), elapsed 2.8s
+  parsing csi_matrix_r0_c1:   3752/  4697 (79.9%), elapsed 3.2s
+  parsing csi_matrix_r0_c1:   4221/  4697 (89.9%), elapsed 3.6s
+  parsing csi_matrix_r0_c1:   4690/  4697 (99.9%), elapsed 4.0s
+  parsing csi_matrix_r0_c2:    469/  4697 (10.0%), elapsed 0.4s
+  parsing csi_matrix_r0_c2:    938/  4697 (20.0%), elapsed 0.8s
+  parsing csi_matrix_r0_c2:   1407/  4697 (30.0%), elapsed 1.2s
+  parsing csi_matrix_r0_c2:   1876/  4697 (39.9%), elapsed 1.6s
+  parsing csi_matrix_r0_c2:   2345/  4697 (49.9%), elapsed 2.0s
+  parsing csi_matrix_r0_c2:   2814/  4697 (59.9%), elapsed 2.4s
+  parsing csi_matrix_r0_c2:   3283/  4697 (69.9%), elapsed 2.8s
+  parsing csi_matrix_r0_c2:   3752/  4697 (79.9%), elapsed 3.2s
+  parsing csi_matrix_r0_c2:   4221/  4697 (89.9%), elapsed 3.6s
+  parsing csi_matrix_r0_c2:   4690/  4697 (99.9%), elapsed 4.0s
+  parsing csi_matrix_r0_c3:    469/  4697 (10.0%), elapsed 0.4s
+  parsing csi_matrix_r0_c3:    938/  4697 (20.0%), elapsed 0.8s
+  parsing csi_matrix_r0_c3:   1407/  4697 (30.0%), elapsed 1.2s
+  parsing csi_matrix_r0_c3:   1876/  4697 (39.9%), elapsed 1.6s
+  parsing csi_matrix_r0_c3:   2345/  4697 (49.9%), elapsed 2.0s
+  parsing csi_matrix_r0_c3:   2814/  4697 (59.9%), elapsed 2.4s
+  parsing csi_matrix_r0_c3:   3283/  4697 (69.9%), elapsed 2.8s
+  parsing csi_matrix_r0_c3:   3752/  4697 (79.9%), elapsed 3.2s
+  parsing csi_matrix_r0_c3:   4221/  4697 (89.9%), elapsed 3.6s
+  parsing csi_matrix_r0_c3:   4690/  4697 (99.9%), elapsed 4.0s
+  parsing csi_matrix_r1_c0:    469/  4697 (10.0%), elapsed 0.4s
+  parsing csi_matrix_r1_c0:    938/  4697 (20.0%), elapsed 0.8s
+  parsing csi_matrix_r1_c0:   1407/  4697 (30.0%), elapsed 1.2s
+  parsing csi_matrix_r1_c0:   1876/  4697 (39.9%), elapsed 1.7s
+  parsing csi_matrix_r1_c0:   2345/  4697 (49.9%), elapsed 2.1s
+  parsing csi_matrix_r1_c0:   2814/  4697 (59.9%), elapsed 2.5s
+  parsing csi_matrix_r1_c0:   3283/  4697 (69.9%), elapsed 3.0s
+  parsing csi_matrix_r1_c0:   3752/  4697 (79.9%), elapsed 3.4s
+  parsing csi_matrix_r1_c0:   4221/  4697 (89.9%), elapsed 3.8s
+  parsing csi_matrix_r1_c0:   4690/  4697 (99.9%), elapsed 4.3s
+  parsing csi_matrix_r1_c1:    469/  4697 (10.0%), elapsed 0.4s
+  parsing csi_matrix_r1_c1:    938/  4697 (20.0%), elapsed 0.8s
+  parsing csi_matrix_r1_c1:   1407/  4697 (30.0%), elapsed 1.2s
+  parsing csi_matrix_r1_c1:   1876/  4697 (39.9%), elapsed 1.6s
+  parsing csi_matrix_r1_c1:   2345/  4697 (49.9%), elapsed 2.0s
+  parsing csi_matrix_r1_c1:   2814/  4697 (59.9%), elapsed 2.4s
+  parsing csi_matrix_r1_c1:   3283/  4697 (69.9%), elapsed 3.0s
+  parsing csi_matrix_r1_c1:   3752/  4697 (79.9%), elapsed 3.5s
+  parsing csi_matrix_r1_c1:   4221/  4697 (89.9%), elapsed 3.9s
+  parsing csi_matrix_r1_c1:   4690/  4697 (99.9%), elapsed 4.3s
+  parsing csi_matrix_r1_c2:    469/  4697 (10.0%), elapsed 0.4s
+  parsing csi_matrix_r1_c2:    938/  4697 (20.0%), elapsed 0.9s
+  parsing csi_matrix_r1_c2:   1407/  4697 (30.0%), elapsed 1.3s
+  parsing csi_matrix_r1_c2:   1876/  4697 (39.9%), elapsed 1.7s
+  parsing csi_matrix_r1_c2:   2345/  4697 (49.9%), elapsed 2.1s
+  parsing csi_matrix_r1_c2:   2814/  4697 (59.9%), elapsed 2.5s
+  parsing csi_matrix_r1_c2:   3283/  4697 (69.9%), elapsed 2.9s
+  parsing csi_matrix_r1_c2:   3752/  4697 (79.9%), elapsed 3.4s
+  parsing csi_matrix_r1_c2:   4221/  4697 (89.9%), elapsed 3.8s
+  parsing csi_matrix_r1_c2:   4690/  4697 (99.9%), elapsed 4.2s
+  parsing csi_matrix_r1_c3:    469/  4697 (10.0%), elapsed 0.4s
+  parsing csi_matrix_r1_c3:    938/  4697 (20.0%), elapsed 0.9s
+  parsing csi_matrix_r1_c3:   1407/  4697 (30.0%), elapsed 1.3s
+  parsing csi_matrix_r1_c3:   1876/  4697 (39.9%), elapsed 1.9s
+  parsing csi_matrix_r1_c3:   2345/  4697 (49.9%), elapsed 2.4s
+  parsing csi_matrix_r1_c3:   2814/  4697 (59.9%), elapsed 2.8s
+  parsing csi_matrix_r1_c3:   3283/  4697 (69.9%), elapsed 3.3s
+  parsing csi_matrix_r1_c3:   3752/  4697 (79.9%), elapsed 3.7s
+  parsing csi_matrix_r1_c3:   4221/  4697 (89.9%), elapsed 4.1s
+  parsing csi_matrix_r1_c3:   4690/  4697 (99.9%), elapsed 4.5s
+Building H...
+Precomputing MI + spectral statistics + x_deg raw components...
+Precompute (parallel) started...
+Precompute (parallel) finished. Total 24.7s
+[PIPELINE TIME] parse=34.529s | buildH=1.932s | preMI=24.847s | pre_all=61.311s
+
+
+###############################
+### SPLIT MODE = random
+###############################
+
+====================================================
+RUN #1 | split=random | train_frac=1.00 | seed=0
+====================================================
+Train=3758 (orig 3758) | Val=939 | M=4 | x_deg_dim=25
+
+================= METHOD (1) FIXED =================
+
+================= METHOD (2) FEATURE =================
+
+================= METHOD (3) E2E =================
+
+================= METHOD (4) OURSNOB =================
+
+================= METHOD (5) OURSFUSION =================
+[ABLATION] FULL           | split=random | frac=1.000 | acc=0.9255 | mae=0.0788 | highMiss=0.0349 | gp=0.9650
+[ABLATION] DATA_ONLY      | split=random | frac=1.000 | acc=0.9276 | mae=0.0777 | highMiss=0.0300 | gp=0.9730
+[ABLATION] PHYS_ONLY      | split=random | frac=1.000 | acc=0.8988 | mae=0.1054 | highMiss=0.0433 | gp=0.9605
+[ABLATION] NO_PRIOR_ALL   | split=random | frac=1.000 | acc=0.9180 | mae=0.0863 | highMiss=0.0300 | gp=0.9650
+[ABLATION] NO_B           | split=random | frac=1.000 | acc=0.9159 | mae=0.0863 | highMiss=0.0383 | gp=0.9691
+[ABLATION] NO_DEEPFADE    | split=random | frac=1.000 | acc=0.9382 | mae=0.0628 | highMiss=0.0183 | gp=0.9715
+[VAL] MI-FIX     : Acc=0.6400 MAE=0.5602 Acc_pm1=0.8253 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.2587 | GPn=0.6776
+[VAL] DEG-MLP    : Acc=0.9052 MAE=0.1022 Acc_pm1=0.9925 | lowMiss=0.0562 highMiss=0.0416 | ECE=0.0323 | GPn=0.9667
+[VAL] MI-DNN     : Acc=0.9233 MAE=0.0788 Acc_pm1=0.9979 | lowMiss=0.0325 highMiss=0.0349 | ECE=0.0266 | GPn=0.9744
+[VAL] MI-ADA     : Acc=0.6400 MAE=0.5602 Acc_pm1=0.8253 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.2742 | GPn=0.6776
+[VAL] MI-FUSE    : Acc=0.9308 MAE=0.0714 Acc_pm1=0.9979 | lowMiss=0.0503 highMiss=0.0116 | ECE=0.0268 | GPn=0.9684
+[TIME] MI-FIX     train=0.456s (epoch=0.0000s) infer=0.0034s (perSample=3.650us)
+[TIME] DEG-MLP    train=26.953s (epoch=0.9617s) infer=0.0037s (perSample=3.953us)
+[TIME] MI-DNN     train=20.395s (epoch=0.4331s) infer=0.0028s (perSample=3.023us)
+[TIME] MI-ADA     train=10.213s (epoch=0.7844s) infer=0.0063s (perSample=6.758us)
+[TIME] MI-FUSE    train=74.481s (epoch=1.0948s) infer=0.0067s (perSample=7.161us)
+
+====================================================
+RUN #2 | split=random | train_frac=1.00 | seed=1
+====================================================
+Train=3758 (orig 3758) | Val=939 | M=4 | x_deg_dim=25
+
+================= METHOD (1) FIXED =================
+
+================= METHOD (2) FEATURE =================
+
+================= METHOD (3) E2E =================
+
+================= METHOD (4) OURSNOB =================
+
+================= METHOD (5) OURSFUSION =================
+[ABLATION] FULL           | split=random | frac=1.000 | acc=0.9052 | mae=0.0990 | highMiss=0.0354 | gp=0.9642
+[ABLATION] DATA_ONLY      | split=random | frac=1.000 | acc=0.9031 | mae=0.1022 | highMiss=0.0236 | gp=0.9629
+[ABLATION] PHYS_ONLY      | split=random | frac=1.000 | acc=0.8775 | mae=0.1289 | highMiss=0.0236 | gp=0.9423
+[ABLATION] NO_PRIOR_ALL   | split=random | frac=1.000 | acc=0.9105 | mae=0.0937 | highMiss=0.0202 | gp=0.9668
+[ABLATION] NO_B           | split=random | frac=1.000 | acc=0.9159 | mae=0.0873 | highMiss=0.0219 | gp=0.9674
+[ABLATION] NO_DEEPFADE    | split=random | frac=1.000 | acc=0.9137 | mae=0.0905 | highMiss=0.0185 | gp=0.9621
+[VAL] MI-FIX     : Acc=0.6326 MAE=0.5293 Acc_pm1=0.8584 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.2647 | GPn=0.6676
+[VAL] DEG-MLP    : Acc=0.8924 MAE=0.1150 Acc_pm1=0.9925 | lowMiss=0.0812 highMiss=0.0337 | ECE=0.0321 | GPn=0.9539
+[VAL] MI-DNN     : Acc=0.9063 MAE=0.1001 Acc_pm1=0.9936 | lowMiss=0.0783 highMiss=0.0168 | ECE=0.0200 | GPn=0.9615
+[VAL] MI-ADA     : Acc=0.6326 MAE=0.5293 Acc_pm1=0.8584 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.1994 | GPn=0.6676
+[VAL] MI-FUSE    : Acc=0.9042 MAE=0.1001 Acc_pm1=0.9957 | lowMiss=0.0667 highMiss=0.0219 | ECE=0.0207 | GPn=0.9604
+[TIME] MI-FIX     train=0.168s (epoch=0.0000s) infer=0.0034s (perSample=3.610us)
+[TIME] DEG-MLP    train=16.781s (epoch=0.4082s) infer=0.0016s (perSample=1.750us)
+[TIME] MI-DNN     train=20.959s (epoch=0.3559s) infer=0.0024s (perSample=2.547us)
+[TIME] MI-ADA     train=7.777s (epoch=0.5962s) infer=0.0044s (perSample=4.654us)
+[TIME] MI-FUSE    train=57.641s (epoch=1.0660s) infer=0.0068s (perSample=7.202us)
+
+====================================================
+RUN #3 | split=random | train_frac=1.00 | seed=2
+====================================================
+Train=3758 (orig 3758) | Val=939 | M=4 | x_deg_dim=25
+
+================= METHOD (1) FIXED =================
+
+================= METHOD (2) FEATURE =================
+
+================= METHOD (3) E2E =================
+
+================= METHOD (4) OURSNOB =================
+
+================= METHOD (5) OURSFUSION =================
+[ABLATION] FULL           | split=random | frac=1.000 | acc=0.9340 | mae=0.0660 | highMiss=0.0154 | gp=0.9695
+[ABLATION] DATA_ONLY      | split=random | frac=1.000 | acc=0.9212 | mae=0.0809 | highMiss=0.0188 | gp=0.9636
+[ABLATION] PHYS_ONLY      | split=random | frac=1.000 | acc=0.8935 | mae=0.1118 | highMiss=0.0427 | gp=0.9550
+[ABLATION] NO_PRIOR_ALL   | split=random | frac=1.000 | acc=0.9340 | mae=0.0660 | highMiss=0.0171 | gp=0.9698
+[ABLATION] NO_B           | split=random | frac=1.000 | acc=0.9350 | mae=0.0650 | highMiss=0.0119 | gp=0.9678
+[ABLATION] NO_DEEPFADE    | split=random | frac=1.000 | acc=0.9308 | mae=0.0692 | highMiss=0.0171 | gp=0.9708
+[VAL] MI-FIX     : Acc=0.6241 MAE=0.5623 Acc_pm1=0.8360 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.2747 | GPn=0.6609
+[VAL] DEG-MLP    : Acc=0.9159 MAE=0.0873 Acc_pm1=0.9968 | lowMiss=0.0482 highMiss=0.0324 | ECE=0.0225 | GPn=0.9611
+[VAL] MI-DNN     : Acc=0.9297 MAE=0.0714 Acc_pm1=0.9989 | lowMiss=0.0397 highMiss=0.0205 | ECE=0.0205 | GPn=0.9714
+[VAL] MI-ADA     : Acc=0.6230 MAE=0.5634 Acc_pm1=0.8371 | lowMiss=0.9943 highMiss=0.0017 | ECE=0.1555 | GPn=0.6622
+[VAL] MI-FUSE    : Acc=0.9308 MAE=0.0692 Acc_pm1=1.0000 | lowMiss=0.0453 highMiss=0.0188 | ECE=0.0226 | GPn=0.9674
+[TIME] MI-FIX     train=0.116s (epoch=0.0000s) infer=0.0037s (perSample=3.949us)
+[TIME] DEG-MLP    train=28.069s (epoch=0.3688s) infer=0.0027s (perSample=2.831us)
+[TIME] MI-DNN     train=16.908s (epoch=0.3374s) infer=0.0019s (perSample=1.988us)
+[TIME] MI-ADA     train=7.596s (epoch=0.5813s) infer=0.0050s (perSample=5.290us)
+[TIME] MI-FUSE    train=79.351s (epoch=1.0034s) infer=0.0079s (perSample=8.364us)
+
+
+###############################
+### SPLIT MODE = nf_ood
+###############################
+
+====================================================
+RUN #4 | split=nf_ood | train_frac=1.00 | seed=0
+====================================================
+Train=2701 (orig 2701) | Val=1996 | M=4 | x_deg_dim=25
+
+================= METHOD (1) FIXED =================
+
+================= METHOD (2) FEATURE =================
+
+================= METHOD (3) E2E =================
+
+================= METHOD (4) OURSNOB =================
+
+================= METHOD (5) OURSFUSION =================
+[ABLATION] FULL           | split=nf_ood | frac=1.000 | acc=0.8612 | mae=0.1428 | highMiss=0.0821 | gp=0.9451
+[ABLATION] DATA_ONLY      | split=nf_ood | frac=1.000 | acc=0.8512 | mae=0.1603 | highMiss=0.0902 | gp=0.9377
+[ABLATION] PHYS_ONLY      | split=nf_ood | frac=1.000 | acc=0.8848 | mae=0.1237 | highMiss=0.0255 | gp=0.9252
+[ABLATION] NO_PRIOR_ALL   | split=nf_ood | frac=1.000 | acc=0.8572 | mae=0.1468 | highMiss=0.0840 | gp=0.9419
+[ABLATION] NO_B           | split=nf_ood | frac=1.000 | acc=0.8637 | mae=0.1433 | highMiss=0.0790 | gp=0.9401
+[ABLATION] NO_DEEPFADE    | split=nf_ood | frac=1.000 | acc=0.8692 | mae=0.1338 | highMiss=0.0790 | gp=0.9436
+[VAL] MI-FIX     : Acc=0.8051 MAE=0.2660 Acc_pm1=0.9334 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.1076 | GPn=0.8270
+[VAL] DEG-MLP    : Acc=0.8878 MAE=0.1247 Acc_pm1=0.9885 | lowMiss=0.3085 highMiss=0.0299 | ECE=0.0340 | GPn=0.9263
+[VAL] MI-DNN     : Acc=0.8362 MAE=0.1924 Acc_pm1=0.9719 | lowMiss=0.3599 highMiss=0.0896 | ECE=0.1139 | GPn=0.9221
+[VAL] MI-ADA     : Acc=0.8051 MAE=0.2660 Acc_pm1=0.9334 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.1566 | GPn=0.8270
+[VAL] MI-FUSE    : Acc=0.8277 MAE=0.1844 Acc_pm1=0.9885 | lowMiss=0.2853 highMiss=0.1108 | ECE=0.1093 | GPn=0.9302
+[TIME] MI-FIX     train=0.148s (epoch=0.0000s) infer=0.0038s (perSample=1.899us)
+[TIME] DEG-MLP    train=5.292s (epoch=0.2770s) infer=0.0021s (perSample=1.030us)
+[TIME] MI-DNN     train=6.381s (epoch=0.2352s) infer=0.0021s (perSample=1.052us)
+[TIME] MI-ADA     train=5.222s (epoch=0.3998s) infer=0.0045s (perSample=2.234us)
+[TIME] MI-FUSE    train=24.788s (epoch=0.7275s) infer=0.0118s (perSample=5.895us)
+
+====================================================
+RUN #5 | split=nf_ood | train_frac=1.00 | seed=1
+====================================================
+Train=2701 (orig 2701) | Val=1996 | M=4 | x_deg_dim=25
+
+================= METHOD (1) FIXED =================
+
+================= METHOD (2) FEATURE =================
+
+================= METHOD (3) E2E =================
+
+================= METHOD (4) OURSNOB =================
+
+================= METHOD (5) OURSFUSION =================
+[ABLATION] FULL           | split=nf_ood | frac=1.000 | acc=0.8637 | mae=0.1473 | highMiss=0.0062 | gp=0.8947
+[ABLATION] DATA_ONLY      | split=nf_ood | frac=1.000 | acc=0.8046 | mae=0.2650 | highMiss=0.0772 | gp=0.9077
+[ABLATION] PHYS_ONLY      | split=nf_ood | frac=1.000 | acc=0.8818 | mae=0.1258 | highMiss=0.0187 | gp=0.9192
+[ABLATION] NO_PRIOR_ALL   | split=nf_ood | frac=1.000 | acc=0.8667 | mae=0.1423 | highMiss=0.0012 | gp=0.8888
+[ABLATION] NO_B           | split=nf_ood | frac=1.000 | acc=0.8657 | mae=0.1348 | highMiss=0.0778 | gp=0.9415
+[ABLATION] NO_DEEPFADE    | split=nf_ood | frac=1.000 | acc=0.9133 | mae=0.0912 | highMiss=0.0100 | gp=0.9404
+[VAL] MI-FIX     : Acc=0.8051 MAE=0.2660 Acc_pm1=0.9334 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.1076 | GPn=0.8270
+[VAL] DEG-MLP    : Acc=0.9043 MAE=0.1032 Acc_pm1=0.9925 | lowMiss=0.3008 highMiss=0.0162 | ECE=0.0400 | GPn=0.9367
+[VAL] MI-DNN     : Acc=0.8627 MAE=0.1458 Acc_pm1=0.9915 | lowMiss=0.2211 highMiss=0.0821 | ECE=0.0746 | GPn=0.9462
+[VAL] MI-ADA     : Acc=0.8051 MAE=0.2660 Acc_pm1=0.9334 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.1593 | GPn=0.8270
+[VAL] MI-FUSE    : Acc=0.8577 MAE=0.1478 Acc_pm1=0.9945 | lowMiss=0.2879 highMiss=0.0821 | ECE=0.0914 | GPn=0.9347
+[TIME] MI-FIX     train=0.167s (epoch=0.0000s) infer=0.0049s (perSample=2.446us)
+[TIME] DEG-MLP    train=7.791s (epoch=0.2769s) infer=0.0027s (perSample=1.335us)
+[TIME] MI-DNN     train=10.795s (epoch=0.2289s) infer=0.0027s (perSample=1.358us)
+[TIME] MI-ADA     train=5.406s (epoch=0.4135s) infer=0.0039s (perSample=1.973us)
+[TIME] MI-FUSE    train=34.096s (epoch=0.7560s) infer=0.0086s (perSample=4.331us)
+
+====================================================
+RUN #6 | split=nf_ood | train_frac=1.00 | seed=2
+====================================================
+Train=2701 (orig 2701) | Val=1996 | M=4 | x_deg_dim=25
+
+================= METHOD (1) FIXED =================
+
+================= METHOD (2) FEATURE =================
+
+================= METHOD (3) E2E =================
+
+================= METHOD (4) OURSNOB =================
+
+================= METHOD (5) OURSFUSION =================
+[ABLATION] FULL           | split=nf_ood | frac=1.000 | acc=0.9133 | mae=0.0897 | highMiss=0.0044 | gp=0.9384
+[ABLATION] DATA_ONLY      | split=nf_ood | frac=1.000 | acc=0.8252 | mae=0.2239 | highMiss=0.0236 | gp=0.8850
+[ABLATION] PHYS_ONLY      | split=nf_ood | frac=1.000 | acc=0.8908 | mae=0.1197 | highMiss=0.0025 | gp=0.9176
+[ABLATION] NO_PRIOR_ALL   | split=nf_ood | frac=1.000 | acc=0.8667 | mae=0.1363 | highMiss=0.0797 | gp=0.9425
+[ABLATION] NO_B           | split=nf_ood | frac=1.000 | acc=0.8672 | mae=0.1358 | highMiss=0.0753 | gp=0.9411
+[ABLATION] NO_DEEPFADE    | split=nf_ood | frac=1.000 | acc=0.9013 | mae=0.1017 | highMiss=0.0205 | gp=0.9389
+[VAL] MI-FIX     : Acc=0.8051 MAE=0.2660 Acc_pm1=0.9334 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.1076 | GPn=0.8270
+[VAL] DEG-MLP    : Acc=0.9013 MAE=0.1047 Acc_pm1=0.9940 | lowMiss=0.2751 highMiss=0.0230 | ECE=0.0425 | GPn=0.9357
+[VAL] MI-DNN     : Acc=0.8602 MAE=0.1478 Acc_pm1=0.9925 | lowMiss=0.2751 highMiss=0.0765 | ECE=0.0828 | GPn=0.9389
+[VAL] MI-ADA     : Acc=0.8041 MAE=0.2690 Acc_pm1=0.9324 | lowMiss=0.9897 highMiss=0.0012 | ECE=0.0496 | GPn=0.8282
+[VAL] MI-FUSE    : Acc=0.9093 MAE=0.0932 Acc_pm1=0.9975 | lowMiss=0.3136 highMiss=0.0093 | ECE=0.0417 | GPn=0.9361
+[TIME] MI-FIX     train=0.138s (epoch=0.0000s) infer=0.0052s (perSample=2.592us)
+[TIME] DEG-MLP    train=7.658s (epoch=0.2723s) infer=0.0024s (perSample=1.187us)
+[TIME] MI-DNN     train=12.583s (epoch=0.2368s) infer=0.0019s (perSample=0.931us)
+[TIME] MI-ADA     train=5.652s (epoch=0.4325s) infer=0.0051s (perSample=2.552us)
+[TIME] MI-FUSE    train=34.713s (epoch=0.7696s) infer=0.0105s (perSample=5.257us)
+
+
+###############################
+### SPLIT MODE = snr_gap_ood
+###############################
+
+====================================================
+RUN #7 | split=snr_gap_ood | train_frac=1.00 | seed=0
+====================================================
+Train=4078 (orig 4078) | Val=619 | M=4 | x_deg_dim=25
+
+================= METHOD (1) FIXED =================
+
+================= METHOD (2) FEATURE =================
+
+================= METHOD (3) E2E =================
+
+================= METHOD (4) OURSNOB =================
+
+================= METHOD (5) OURSFUSION =================
+[ABLATION] FULL           | split=snr_gap_ood | frac=1.000 | acc=0.9790 | mae=0.0226 | highMiss=0.0000 | gp=0.9812
+[ABLATION] DATA_ONLY      | split=snr_gap_ood | frac=1.000 | acc=0.9790 | mae=0.0226 | highMiss=0.0000 | gp=0.9812
+[ABLATION] PHYS_ONLY      | split=snr_gap_ood | frac=1.000 | acc=0.9774 | mae=0.0258 | highMiss=0.0000 | gp=0.9799
+[ABLATION] NO_PRIOR_ALL   | split=snr_gap_ood | frac=1.000 | acc=0.9790 | mae=0.0226 | highMiss=0.0000 | gp=0.9812
+[ABLATION] NO_B           | split=snr_gap_ood | frac=1.000 | acc=0.9790 | mae=0.0226 | highMiss=0.0000 | gp=0.9812
+[ABLATION] NO_DEEPFADE    | split=snr_gap_ood | frac=1.000 | acc=0.9790 | mae=0.0226 | highMiss=0.0000 | gp=0.9812
+[VAL] MI-FIX     : Acc=0.9774 MAE=0.0258 Acc_pm1=0.9968 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.0334 | GPn=0.9799
+[VAL] DEG-MLP    : Acc=0.9774 MAE=0.0258 Acc_pm1=0.9968 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.0917 | GPn=0.9799
+[VAL] MI-DNN     : Acc=0.9822 MAE=0.0210 Acc_pm1=0.9968 | lowMiss=0.7857 highMiss=0.0000 | ECE=0.2177 | GPn=0.9843
+[VAL] MI-ADA     : Acc=0.9774 MAE=0.0242 Acc_pm1=0.9984 | lowMiss=0.9286 highMiss=0.0000 | ECE=0.1111 | GPn=0.9811
+[VAL] MI-FUSE    : Acc=0.9855 MAE=0.0162 Acc_pm1=0.9984 | lowMiss=0.5000 highMiss=0.0033 | ECE=0.0956 | GPn=0.9896
+[TIME] MI-FIX     train=0.150s (epoch=0.0000s) infer=0.0023s (perSample=3.735us)
+[TIME] DEG-MLP    train=7.122s (epoch=0.5456s) infer=0.0016s (perSample=2.523us)
+[TIME] MI-DNN     train=5.026s (epoch=0.3845s) infer=0.0020s (perSample=3.275us)
+[TIME] MI-ADA     train=7.286s (epoch=0.5580s) infer=0.0035s (perSample=5.609us)
+[TIME] MI-FUSE    train=21.367s (epoch=1.0149s) infer=0.0059s (perSample=9.581us)
+
+====================================================
+RUN #8 | split=snr_gap_ood | train_frac=1.00 | seed=1
+====================================================
+Train=4078 (orig 4078) | Val=619 | M=4 | x_deg_dim=25
+
+================= METHOD (1) FIXED =================
+
+================= METHOD (2) FEATURE =================
+
+================= METHOD (3) E2E =================
+
+================= METHOD (4) OURSNOB =================
+
+================= METHOD (5) OURSFUSION =================
+[ABLATION] FULL           | split=snr_gap_ood | frac=1.000 | acc=0.9774 | mae=0.0258 | highMiss=0.0017 | gp=0.9809
+[ABLATION] DATA_ONLY      | split=snr_gap_ood | frac=1.000 | acc=0.9790 | mae=0.0226 | highMiss=0.0000 | gp=0.9812
+[ABLATION] PHYS_ONLY      | split=snr_gap_ood | frac=1.000 | acc=0.9774 | mae=0.0258 | highMiss=0.0000 | gp=0.9799
+[ABLATION] NO_PRIOR_ALL   | split=snr_gap_ood | frac=1.000 | acc=0.9806 | mae=0.0210 | highMiss=0.0017 | gp=0.9841
+[ABLATION] NO_B           | split=snr_gap_ood | frac=1.000 | acc=0.9790 | mae=0.0226 | highMiss=0.0000 | gp=0.9812
+[ABLATION] NO_DEEPFADE    | split=snr_gap_ood | frac=1.000 | acc=0.9790 | mae=0.0226 | highMiss=0.0000 | gp=0.9812
+[VAL] MI-FIX     : Acc=0.9774 MAE=0.0258 Acc_pm1=0.9968 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.0334 | GPn=0.9799
+[VAL] DEG-MLP    : Acc=0.9774 MAE=0.0258 Acc_pm1=0.9968 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.1659 | GPn=0.9799
+[VAL] MI-DNN     : Acc=0.9790 MAE=0.0226 Acc_pm1=0.9984 | lowMiss=0.9286 highMiss=0.0000 | ECE=0.1589 | GPn=0.9812
+[VAL] MI-ADA     : Acc=0.9774 MAE=0.0258 Acc_pm1=0.9968 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.0876 | GPn=0.9799
+[VAL] MI-FUSE    : Acc=0.9806 MAE=0.0210 Acc_pm1=0.9984 | lowMiss=0.7857 highMiss=0.0017 | ECE=0.0557 | GPn=0.9840
+[TIME] MI-FIX     train=0.092s (epoch=0.0000s) infer=0.0017s (perSample=2.691us)
+[TIME] DEG-MLP    train=5.101s (epoch=0.3904s) infer=0.0013s (perSample=2.057us)
+[TIME] MI-DNN     train=4.709s (epoch=0.3346s) infer=0.0014s (perSample=2.234us)
+[TIME] MI-ADA     train=7.116s (epoch=0.5455s) infer=0.0030s (perSample=4.797us)
+[TIME] MI-FUSE    train=22.237s (epoch=1.0084s) infer=0.0059s (perSample=9.476us)
+
+====================================================
+RUN #9 | split=snr_gap_ood | train_frac=1.00 | seed=2
+====================================================
+Train=4078 (orig 4078) | Val=619 | M=4 | x_deg_dim=25
+
+================= METHOD (1) FIXED =================
+
+================= METHOD (2) FEATURE =================
+
+================= METHOD (3) E2E =================
+
+================= METHOD (4) OURSNOB =================
+
+================= METHOD (5) OURSFUSION =================
+[ABLATION] FULL           | split=snr_gap_ood | frac=1.000 | acc=0.9855 | mae=0.0162 | highMiss=0.0050 | gp=0.9911
+[ABLATION] DATA_ONLY      | split=snr_gap_ood | frac=1.000 | acc=0.9871 | mae=0.0145 | highMiss=0.0017 | gp=0.9898
+[ABLATION] PHYS_ONLY      | split=snr_gap_ood | frac=1.000 | acc=0.9774 | mae=0.0258 | highMiss=0.0000 | gp=0.9799
+[ABLATION] NO_PRIOR_ALL   | split=snr_gap_ood | frac=1.000 | acc=0.9822 | mae=0.0194 | highMiss=0.0017 | gp=0.9856
+[ABLATION] NO_B           | split=snr_gap_ood | frac=1.000 | acc=0.9871 | mae=0.0145 | highMiss=0.0033 | gp=0.9913
+[ABLATION] NO_DEEPFADE    | split=snr_gap_ood | frac=1.000 | acc=0.9871 | mae=0.0145 | highMiss=0.0050 | gp=0.9924
+[VAL] MI-FIX     : Acc=0.9774 MAE=0.0258 Acc_pm1=0.9968 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.0334 | GPn=0.9799
+[VAL] DEG-MLP    : Acc=0.9758 MAE=0.0275 Acc_pm1=0.9968 | lowMiss=1.0000 highMiss=0.0017 | ECE=0.2159 | GPn=0.9798
+[VAL] MI-DNN     : Acc=0.9725 MAE=0.0291 Acc_pm1=0.9984 | lowMiss=0.9286 highMiss=0.0050 | ECE=0.1581 | GPn=0.9794
+[VAL] MI-ADA     : Acc=0.9774 MAE=0.0258 Acc_pm1=0.9968 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.0138 | GPn=0.9799
+[VAL] MI-FUSE    : Acc=0.9790 MAE=0.0226 Acc_pm1=0.9984 | lowMiss=0.9286 highMiss=0.0000 | ECE=0.0866 | GPn=0.9812
+[TIME] MI-FIX     train=0.083s (epoch=0.0000s) infer=0.0017s (perSample=2.782us)
+[TIME] DEG-MLP    train=5.120s (epoch=0.3918s) infer=0.0013s (perSample=2.123us)
+[TIME] MI-DNN     train=4.923s (epoch=0.3265s) infer=0.0017s (perSample=2.668us)
+[TIME] MI-ADA     train=7.142s (epoch=0.5475s) infer=0.0036s (perSample=5.741us)
+[TIME] MI-FUSE    train=18.221s (epoch=1.0452s) infer=0.0056s (perSample=9.096us)
+
+
+###############################
+### SPLIT MODE = gap_ood
+###############################
+
+====================================================
+RUN #10 | split=gap_ood | train_frac=1.00 | seed=0
+====================================================
+Train=2349 (orig 2349) | Val=2348 | M=4 | x_deg_dim=25
+
+================= METHOD (1) FIXED =================
+
+================= METHOD (2) FEATURE =================
+
+================= METHOD (3) E2E =================
+
+================= METHOD (4) OURSNOB =================
+
+================= METHOD (5) OURSFUSION =================
+[ABLATION] FULL           | split=gap_ood | frac=1.000 | acc=0.8233 | mae=0.3024 | highMiss=0.0228 | gp=0.8635
+[ABLATION] DATA_ONLY      | split=gap_ood | frac=1.000 | acc=0.8105 | mae=0.2483 | highMiss=0.0774 | gp=0.8970
+[ABLATION] PHYS_ONLY      | split=gap_ood | frac=1.000 | acc=0.8492 | mae=0.1776 | highMiss=0.0056 | gp=0.8778
+[ABLATION] NO_PRIOR_ALL   | split=gap_ood | frac=1.000 | acc=0.8101 | mae=0.3271 | highMiss=0.0390 | gp=0.8635
+[ABLATION] NO_B           | split=gap_ood | frac=1.000 | acc=0.8220 | mae=0.3049 | highMiss=0.0243 | gp=0.8643
+[ABLATION] NO_DEEPFADE    | split=gap_ood | frac=1.000 | acc=0.8245 | mae=0.2998 | highMiss=0.0213 | gp=0.8641
+[VAL] MI-FIX     : Acc=0.8416 MAE=0.2658 Acc_pm1=0.9284 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.1072 | GPn=0.8639
+[VAL] DEG-MLP    : Acc=0.8186 MAE=0.2091 Acc_pm1=0.9723 | lowMiss=0.3172 highMiss=0.0962 | ECE=0.0961 | GPn=0.9117
+[VAL] MI-DNN     : Acc=0.7807 MAE=0.2934 Acc_pm1=0.9438 | lowMiss=0.5672 highMiss=0.1149 | ECE=0.1008 | GPn=0.8932
+[VAL] MI-ADA     : Acc=0.8416 MAE=0.2658 Acc_pm1=0.9284 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.1535 | GPn=0.8639
+[VAL] MI-FUSE    : Acc=0.8216 MAE=0.3037 Acc_pm1=0.9097 | lowMiss=0.9462 highMiss=0.0258 | ECE=0.0629 | GPn=0.8654
+[TIME] MI-FIX     train=0.153s (epoch=0.0000s) infer=0.0058s (perSample=2.479us)
+[TIME] DEG-MLP    train=4.900s (epoch=0.2321s) infer=0.0019s (perSample=0.804us)
+[TIME] MI-DNN     train=4.200s (epoch=0.1987s) infer=0.0026s (perSample=1.096us)
+[TIME] MI-ADA     train=7.595s (epoch=0.3292s) infer=0.0049s (perSample=2.082us)
+[TIME] MI-FUSE    train=8.818s (epoch=0.6264s) infer=0.0087s (perSample=3.705us)
+
+====================================================
+RUN #11 | split=gap_ood | train_frac=1.00 | seed=1
+====================================================
+Train=2349 (orig 2349) | Val=2348 | M=4 | x_deg_dim=25
+
+================= METHOD (1) FIXED =================
+
+================= METHOD (2) FEATURE =================
+
+================= METHOD (3) E2E =================
+
+================= METHOD (4) OURSNOB =================
+
+================= METHOD (5) OURSFUSION =================
+[ABLATION] FULL           | split=gap_ood | frac=1.000 | acc=0.8309 | mae=0.2866 | highMiss=0.0137 | gp=0.8650
+[ABLATION] DATA_ONLY      | split=gap_ood | frac=1.000 | acc=0.7994 | mae=0.3471 | highMiss=0.0521 | gp=0.8617
+[ABLATION] PHYS_ONLY      | split=gap_ood | frac=1.000 | acc=0.8701 | mae=0.1376 | highMiss=0.0359 | gp=0.9147
+[ABLATION] NO_PRIOR_ALL   | split=gap_ood | frac=1.000 | acc=0.8207 | mae=0.3062 | highMiss=0.0263 | gp=0.8646
+[ABLATION] NO_B           | split=gap_ood | frac=1.000 | acc=0.8318 | mae=0.2853 | highMiss=0.0121 | gp=0.8639
+[ABLATION] NO_DEEPFADE    | split=gap_ood | frac=1.000 | acc=0.8305 | mae=0.2879 | highMiss=0.0137 | gp=0.8640
+[VAL] MI-FIX     : Acc=0.8416 MAE=0.2658 Acc_pm1=0.9284 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.1072 | GPn=0.8639
+[VAL] DEG-MLP    : Acc=0.8420 MAE=0.2653 Acc_pm1=0.9284 | lowMiss=0.9973 highMiss=0.0000 | ECE=0.0621 | GPn=0.8643
+[VAL] MI-DNN     : Acc=0.7977 MAE=0.2756 Acc_pm1=0.9412 | lowMiss=0.5565 highMiss=0.0870 | ECE=0.1120 | GPn=0.8929
+[VAL] MI-ADA     : Acc=0.8416 MAE=0.2653 Acc_pm1=0.9289 | lowMiss=0.9973 highMiss=0.0000 | ECE=0.1586 | GPn=0.8642
+[VAL] MI-FUSE    : Acc=0.8079 MAE=0.3241 Acc_pm1=0.9029 | lowMiss=0.9462 highMiss=0.0415 | ECE=0.1119 | GPn=0.8638
+[TIME] MI-FIX     train=0.170s (epoch=0.0000s) infer=0.0064s (perSample=2.712us)
+[TIME] DEG-MLP    train=3.113s (epoch=0.2375s) infer=0.0018s (perSample=0.767us)
+[TIME] MI-DNN     train=4.066s (epoch=0.2020s) infer=0.0029s (perSample=1.221us)
+[TIME] MI-ADA     train=7.242s (epoch=0.3281s) infer=0.0053s (perSample=2.246us)
+[TIME] MI-FUSE    train=8.279s (epoch=0.6332s) infer=0.0091s (perSample=3.867us)
+
+====================================================
+RUN #12 | split=gap_ood | train_frac=1.00 | seed=2
+====================================================
+Train=2349 (orig 2349) | Val=2348 | M=4 | x_deg_dim=25
+
+================= METHOD (1) FIXED =================
+
+================= METHOD (2) FEATURE =================
+
+================= METHOD (3) E2E =================
+
+================= METHOD (4) OURSNOB =================
+
+================= METHOD (5) OURSFUSION =================
+[ABLATION] FULL           | split=gap_ood | frac=1.000 | acc=0.8450 | mae=0.2066 | highMiss=0.0304 | gp=0.8977
+[ABLATION] DATA_ONLY      | split=gap_ood | frac=1.000 | acc=0.8139 | mae=0.2474 | highMiss=0.0709 | gp=0.8988
+[ABLATION] PHYS_ONLY      | split=gap_ood | frac=1.000 | acc=0.8871 | mae=0.1239 | highMiss=0.0283 | gp=0.9353
+[ABLATION] NO_PRIOR_ALL   | split=gap_ood | frac=1.000 | acc=0.8271 | mae=0.2304 | highMiss=0.0526 | gp=0.8963
+[ABLATION] NO_B           | split=gap_ood | frac=1.000 | acc=0.8518 | mae=0.1963 | highMiss=0.0187 | gp=0.9005
+[ABLATION] NO_DEEPFADE    | split=gap_ood | frac=1.000 | acc=0.8484 | mae=0.1997 | highMiss=0.0243 | gp=0.8981
+[VAL] MI-FIX     : Acc=0.8416 MAE=0.2658 Acc_pm1=0.9284 | lowMiss=1.0000 highMiss=0.0000 | ECE=0.1072 | GPn=0.8639
+[VAL] DEG-MLP    : Acc=0.7900 MAE=0.3390 Acc_pm1=0.9059 | lowMiss=0.9140 highMiss=0.0673 | ECE=0.0967 | GPn=0.8653
+[VAL] MI-DNN     : Acc=0.8190 MAE=0.2470 Acc_pm1=0.9493 | lowMiss=0.5511 highMiss=0.0709 | ECE=0.1096 | GPn=0.8967
+[VAL] MI-ADA     : Acc=0.8411 MAE=0.2670 Acc_pm1=0.9280 | lowMiss=1.0000 highMiss=0.0005 | ECE=0.1024 | GPn=0.8638
+[VAL] MI-FUSE    : Acc=0.8169 MAE=0.3143 Acc_pm1=0.9042 | lowMiss=0.9462 highMiss=0.0309 | ECE=0.1041 | GPn=0.8652
+[TIME] MI-FIX     train=0.160s (epoch=0.0000s) infer=0.0072s (perSample=3.048us)
+[TIME] DEG-MLP    train=3.123s (epoch=0.2383s) infer=0.0018s (perSample=0.764us)
+[TIME] MI-DNN     train=5.330s (epoch=0.2038s) infer=0.0028s (perSample=1.207us)
+[TIME] MI-ADA     train=4.878s (epoch=0.3732s) infer=0.0053s (perSample=2.273us)
+[TIME] MI-FUSE    train=8.470s (epoch=0.6475s) infer=0.0117s (perSample=4.963us)
+
+================ SUMMARY ================
+    MI_FIX_Acc_mean    MI_FIX_Acc_std    MI_FIX_MAE_mean    MI_FIX_lowMiss_mean    MI_FIX_ECE_mean    MI_FIX_goodput_norm_mean    MI_FIX_outage_mean    MI_FIX_train_s_mean    MI_FIX_infer_us_mean    DEG_MLP_Acc_mean    DEG_MLP_Acc_std    DEG_MLP_MAE_mean    DEG_MLP_lowMiss_mean    DEG_MLP_ECE_mean    DEG_MLP_goodput_norm_mean    DEG_MLP_outage_mean    DEG_MLP_train_s_mean    DEG_MLP_infer_us_mean    MI_DNN_Acc_mean    MI_DNN_Acc_std    MI_DNN_MAE_mean    MI_DNN_lowMiss_mean    MI_DNN_ECE_mean    MI_DNN_goodput_norm_mean    MI_DNN_outage_mean    MI_DNN_train_s_mean    MI_DNN_infer_us_mean    MI_ADA_Acc_mean    MI_ADA_Acc_std    MI_ADA_MAE_mean    MI_ADA_lowMiss_mean    MI_ADA_ECE_mean    MI_ADA_goodput_norm_mean    MI_ADA_outage_mean    MI_ADA_train_s_mean    MI_ADA_infer_us_mean    MI_FUSE_Acc_mean    MI_FUSE_Acc_std    MI_FUSE_MAE_mean    MI_FUSE_lowMiss_mean    MI_FUSE_ECE_mean    MI_FUSE_goodput_norm_mean    MI_FUSE_outage_mean    MI_FUSE_train_s_mean    MI_FUSE_infer_us_mean
+    _______________    ______________    _______________    ___________________    _______________    ________________________    __________________    ___________________    ____________________    ________________    _______________    ________________    ____________________    ________________    _________________________    ___________________    ____________________    _____________________    _______________    ______________    _______________    ___________________    _______________    ________________________    __________________    ___________________    ____________________    _______________    ______________    _______________    ___________________    _______________    ________________________    __________________    ___________________    ____________________    ________________    _______________    ________________    ____________________    ________________    _________________________    ___________________    ____________________    _____________________
+
+        0.81407           0.12857            0.27706                 1                 0.12856                 0.8349                  0.18593                0.16672                 2.966                 0.899             0.060527            0.12749               0.52486               0.07765                  0.93843                  0.066168                 10.085                  1.7603                0.88746           0.071451           0.13541              0.44367             0.099614                0.94518                  0.055713               9.6896                  1.8834               0.81387           0.12872            0.27733              0.99249              0.13513                0.83522                  0.18541                 6.927                  3.8507               0.89598            0.067698            0.13899               0.50851               0.069117                 0.9372                   0.066448                 32.705                  6.5749        
+
+        split        frac     method      nRuns    acc_mean     acc_std      mae_mean     mae_std      accpm1_mean    lowMiss_mean    highMiss_mean    ece_mean    auroc_mean    aurc_mean    goodput_norm_mean    outage_mean    underuse_mean    train_s_mean    infer_us_mean
+    _____________    ____    _________    _____    ________    __________    ________    __________    ___________    ____________    _____________    ________    __________    _________    _________________    ___________    _____________    ____________    _____________
+
+    "random"          1      "MI-FIX"       3      0.63223      0.0079931     0.55059      0.018476       0.8399               1                0       0.26606     0.79345        0.16113         0.66874           0.36777               0         0.24642           3.7363   
+    "random"          1      "DEG-MLP"      3      0.90451       0.011731     0.10153      0.013858      0.99397        0.061844         0.035897      0.028988     0.85554        0.02131         0.96056          0.037274          3.5106          23.934           2.8445   
+    "random"          1      "MI-DNN"       3      0.91977       0.012111    0.083422      0.014922      0.99681        0.050155         0.024085      0.022327      0.8425       0.021589         0.96909          0.028044          3.1443          19.421           2.5196   
+    "random"          1      "MI-ADA"       3      0.63188      0.0085419     0.55094      0.018821      0.84026         0.99811       0.00056883       0.20971     0.80858        0.15589         0.66917           0.36706         0.14308          8.5285           5.5675   
+    "random"          1      "MI-FUSE"      3       0.9219       0.015371    0.080227      0.017249      0.99787        0.054096         0.017435      0.023364     0.87006       0.016125         0.96541          0.033369          2.6313          70.491           7.5758   
+    "nf_ood"          1      "MI-FIX"       3      0.80511     1.3597e-16     0.26603             0      0.93337               1                0       0.10762     0.87099       0.050903         0.82703           0.19489               0          0.1509           2.3122   
+    "nf_ood"          1      "DEG-MLP"      3       0.8978      0.0088068     0.11089      0.012028      0.99165         0.29477         0.023024      0.038834     0.86584       0.023147         0.93288          0.071476          1.9974          6.9134           1.1838   
+    "nf_ood"          1      "MI-DNN"       3      0.85304       0.014661     0.16199      0.026341       0.9853         0.28535         0.082763      0.090446     0.68496       0.071823         0.93572          0.061623           5.459          9.9196           1.1136   
+    "nf_ood"          1      "MI-ADA"       3      0.80478     0.00057851     0.26703     0.0017355      0.93303         0.99657       0.00041485       0.12181     0.90414       0.043716         0.82743           0.19422          0.1282          5.4265            2.253   
+    "nf_ood"          1      "MI-FUSE"      3       0.8649       0.041303     0.14178      0.045888      0.99349         0.29563         0.067413      0.080804     0.77861       0.050236         0.93365          0.064963          4.4887          31.199            5.161   
+    "snr_gap_ood"     1      "MI-FIX"       3      0.97738              0    0.025848    4.2492e-18      0.99677               1                0      0.033396     0.68784       0.010917         0.97991          0.022617               0         0.10841           3.0693   
+    "snr_gap_ood"     1      "DEG-MLP"      3      0.97684     0.00093271    0.026387    0.00093271      0.99677               1       0.00055096       0.15782     0.72528       0.010306         0.97986          0.022617         0.03157          5.7812           2.2344   
+    "snr_gap_ood"     1      "MI-DNN"       3      0.97792      0.0049355    0.024233     0.0042742      0.99785         0.88095        0.0016529       0.17824     0.77868      0.0084443         0.98164          0.020463        0.094711           4.886           2.7258   
+    "snr_gap_ood"     1      "MI-ADA"       3      0.97738              0     0.02531    0.00093271      0.99731         0.97619                0      0.070845     0.75462      0.0079835          0.9803          0.022079        0.025248          7.1813           5.3821   
+    "snr_gap_ood"     1      "MI-FUSE"      3      0.98169      0.0033629    0.019925     0.0033629      0.99838          0.7381        0.0016529      0.079332     0.72588      0.0083962         0.98494          0.016694        0.093833          20.608           9.3845   
+    "gap_ood"         1      "MI-FIX"       3      0.84157              0     0.26576             0      0.92845               1                0       0.10715     0.80288       0.049822          0.8639           0.15843               0         0.16115           2.7464   
+    "gap_ood"         1      "DEG-MLP"      3      0.81687       0.026021     0.27115      0.065144      0.93555         0.74283         0.054487      0.084961     0.80584       0.070866         0.88043            0.1333          3.8861          3.7117          0.77839   
+    "gap_ood"         1      "MI-DNN"       3      0.79912       0.019205       0.272      0.023414      0.94478         0.55824         0.090924       0.10745     0.79852       0.072983         0.89427           0.11272          6.1976          4.5321           1.1747   
+    "gap_ood"         1      "MI-ADA"       3      0.84143     0.00024589     0.26604    0.00088657      0.92845          0.9991       0.00016869       0.13816     0.89782       0.031623         0.86397           0.15829        0.034831          6.5718           2.2003   
+    "gap_ood"         1      "MI-FUSE"      3      0.81545      0.0069243     0.31403      0.010224      0.90559         0.94624         0.032726      0.092969     0.85339       0.049559         0.86479           0.15077          3.9788          8.5223           4.1783   
+
+        split        frac    MI_FIX_acc    MI_FIX_mae    MI_FIX_highMiss    MI_FIX_ece    MI_FIX_goodput_norm    DEG_MLP_acc    DEG_MLP_mae    DEG_MLP_highMiss    DEG_MLP_ece    DEG_MLP_goodput_norm    MI_DNN_acc    MI_DNN_mae    MI_DNN_highMiss    MI_DNN_ece    MI_DNN_goodput_norm    MI_ADA_acc    MI_ADA_mae    MI_ADA_highMiss    MI_ADA_ece    MI_ADA_goodput_norm    MI_FUSE_acc    MI_FUSE_mae    MI_FUSE_highMiss    MI_FUSE_ece    MI_FUSE_goodput_norm
+    _____________    ____    __________    __________    _______________    __________    ___________________    ___________    ___________    ________________    ___________    ____________________    __________    __________    _______________    __________    ___________________    __________    __________    _______________    __________    ___________________    ___________    ___________    ________________    ___________    ____________________
+
+    "random"          1       0.63223        0.55059            0             0.26606           0.66874            0.90451        0.10153           0.035897        0.028988            0.96056            0.91977       0.083422         0.024085        0.022327           0.96909           0.63188       0.55094        0.00056883         0.20971           0.66917             0.9219       0.080227          0.017435         0.023364            0.96541       
+    "nf_ood"          1       0.80511        0.26603            0             0.10762           0.82703             0.8978        0.11089           0.023024        0.038834            0.93288            0.85304        0.16199         0.082763        0.090446           0.93572           0.80478       0.26703        0.00041485         0.12181           0.82743             0.8649        0.14178          0.067413         0.080804            0.93365       
+    "snr_gap_ood"     1       0.97738       0.025848            0            0.033396           0.97991            0.97684       0.026387         0.00055096         0.15782            0.97986            0.97792       0.024233        0.0016529         0.17824           0.98164           0.97738       0.02531                 0        0.070845            0.9803            0.98169       0.019925         0.0016529         0.079332            0.98494       
+    "gap_ood"         1       0.84157        0.26576            0             0.10715            0.8639            0.81687        0.27115           0.054487        0.084961            0.88043            0.79912          0.272         0.090924         0.10745           0.89427           0.84143       0.26604        0.00016869         0.13816           0.86397            0.81545        0.31403          0.032726         0.092969            0.86479       
+
+        split         method      acc_mean     acc_std      highMiss_mean    ece_mean    goodput_norm_mean    train_s_mean    infer_us_mean    lowMiss_mean
+    _____________    _________    ________    __________    _____________    ________    _________________    ____________    _____________    ____________
+
+    "random"         "MI-FIX"     0.63223      0.0079931              0       0.26606         0.66874           0.24642          3.7363                 1  
+    "random"         "DEG-MLP"    0.90451       0.011731       0.035897      0.028988         0.96056            23.934          2.8445          0.061844  
+    "random"         "MI-DNN"     0.91977       0.012111       0.024085      0.022327         0.96909            19.421          2.5196          0.050155  
+    "random"         "MI-ADA"     0.63188      0.0085419     0.00056883       0.20971         0.66917            8.5285          5.5675           0.99811  
+    "random"         "MI-FUSE"     0.9219       0.015371       0.017435      0.023364         0.96541            70.491          7.5758          0.054096  
+    "nf_ood"         "MI-FIX"     0.80511     1.3597e-16              0       0.10762         0.82703            0.1509          2.3122                 1  
+    "nf_ood"         "DEG-MLP"     0.8978      0.0088068       0.023024      0.038834         0.93288            6.9134          1.1838           0.29477  
+    "nf_ood"         "MI-DNN"     0.85304       0.014661       0.082763      0.090446         0.93572            9.9196          1.1136           0.28535  
+    "nf_ood"         "MI-ADA"     0.80478     0.00057851     0.00041485       0.12181         0.82743            5.4265           2.253           0.99657  
+    "nf_ood"         "MI-FUSE"     0.8649       0.041303       0.067413      0.080804         0.93365            31.199           5.161           0.29563  
+    "snr_gap_ood"    "MI-FIX"     0.97738              0              0      0.033396         0.97991           0.10841          3.0693                 1  
+    "snr_gap_ood"    "DEG-MLP"    0.97684     0.00093271     0.00055096       0.15782         0.97986            5.7812          2.2344                 1  
+    "snr_gap_ood"    "MI-DNN"     0.97792      0.0049355      0.0016529       0.17824         0.98164             4.886          2.7258           0.88095  
+    "snr_gap_ood"    "MI-ADA"     0.97738              0              0      0.070845          0.9803            7.1813          5.3821           0.97619  
+    "snr_gap_ood"    "MI-FUSE"    0.98169      0.0033629      0.0016529      0.079332         0.98494            20.608          9.3845            0.7381  
+
+        split              compare           delta_acc_mean    p_acc    delta_highMiss_mean    p_highMiss    delta_goodput_mean    p_goodput
+    _____________    ____________________    ______________    _____    ___________________    __________    __________________    _________
+
+    "random"         "MI-FUSE_vs_MI-ADA"          0.29002      0.25            0.016866           0.25              0.29624          0.25   
+    "random"         "MI-FUSE_vs_MI-DNN"        0.0021299      0.75          -0.0066502           0.75            -0.003675          0.25   
+    "random"         "MI-FUSE_vs_DEG-MLP"        0.017394      0.25           -0.018462           0.25            0.0048564          0.25   
+    "random"         "MI-FUSE_vs_MI-FIX"          0.28967      0.25            0.017435           0.25              0.29667          0.25   
+    "random"         "MI-ADA_vs_MI-DNN"          -0.28789      0.25           -0.023516           0.25             -0.29991          0.25   
+    "nf_ood"         "MI-FUSE_vs_MI-ADA"          0.06012      0.25            0.066999           0.25              0.10622          0.25   
+    "nf_ood"         "MI-FUSE_vs_MI-DNN"         0.011857         1            -0.01535              1           -0.0020739          0.75   
+    "nf_ood"         "MI-FUSE_vs_DEG-MLP"       -0.032899       0.5            0.044389            0.5           0.00076758          0.75   
+    "nf_ood"         "MI-FUSE_vs_MI-FIX"         0.059786      0.25            0.067413           0.25              0.10662          0.25   
+    "nf_ood"         "MI-ADA_vs_MI-DNN"         -0.048263      0.25           -0.082348           0.25              -0.1083          0.25   
+    "snr_gap_ood"    "MI-FUSE_vs_MI-ADA"         0.004308      0.25           0.0016529            0.5            0.0046329          0.25   
+    "snr_gap_ood"    "MI-FUSE_vs_MI-DNN"        0.0037695      0.25         -2.8912e-19              1            0.0032936          0.25   
+    "snr_gap_ood"    "MI-FUSE_vs_DEG-MLP"       0.0048465      0.25           0.0011019           0.75            0.0050755          0.25   
+    "snr_gap_ood"    "MI-FUSE_vs_MI-FIX"         0.004308      0.25           0.0016529            0.5            0.0050216          0.25   
+    "snr_gap_ood"    "MI-ADA_vs_MI-DNN"        -0.0005385         1          -0.0016529              1           -0.0013392           0.5   
+    "gap_ood"        "MI-FUSE_vs_MI-ADA"         -0.02598      0.25            0.032557           0.25           0.00082507           0.5   
+    "gap_ood"        "MI-FUSE_vs_MI-DNN"         0.016326       0.5           -0.058198           0.25            -0.029483          0.25   
+    "gap_ood"        "MI-FUSE_vs_DEG-MLP"      -0.0014196         1           -0.021761           0.75            -0.015642          0.25   
+    "gap_ood"        "MI-FUSE_vs_MI-FIX"        -0.026122      0.25            0.032726           0.25           0.00088918           0.5   
+    "gap_ood"        "MI-ADA_vs_MI-DNN"          0.042306      0.25           -0.090756           0.25            -0.030308          0.25   
+
+
+================ OOD RISK ANALYSIS =================
+
+================ beta_t vs under-prediction risk ANALYSIS =================
+        split         N       pearson     spearman     risk_mean    risk_posrate    beta_low_group_mean    beta_high_group_mean    risk_lowbeta    risk_highbeta    p_ranksum 
+    _____________    ____    _________    _________    _________    ____________    ___________________    ____________________    ____________    _____________    __________
+
+    "random"          939    -0.043718    -0.033045    0.038339       0.038339            0.14372                 2.6732             0.031915         0.015957         0.31295
+    "nf_ood"         1996     -0.21762     -0.20645     0.11623        0.10822            0.20193                 5.6221              0.15789        0.0025063      1.2975e-14
+    "gap_ood"        2348      0.35255      0.26077    0.048978       0.027257               0.05                 3.0474                    0          0.24043      2.2209e-16
+    "snr_gap_ood"     619    -0.039593     -0.04158    0.003231       0.003231            0.76941                 6.1871                    0                0             NaN
+
+
+================ ESS / ENTROPY ANALYSIS =================
+     split       N     rho_beta_ess    rho_gap_ess    rho_ess_risk    ESS_mean    Entropy_mean    MaxWeight_mean
+    ________    ___    ____________    ___________    ____________    ________    ____________    ______________
+
+    "random"    939      -0.94058       -0.21912        0.046406       110.38        4.7389          0.014324   
+
+
+================ MARGIN STABILITY ANALYSIS =================
+         split         eps      N      margin_mean    certified_frac    certified_flip_rate    overall_flip_rate
+    _______________    ____    ____    ___________    ______________    ___________________    _________________
+
+    {'random'     }    0.02     939      1.0629          0.99148                    0                      0    
+    {'random'     }    0.05     939      1.0629          0.96912                    0                      0    
+    {'random'     }    0.08     939      1.0629           0.9606                    0             0.00024849    
+    {'random'     }    0.12     939      1.0629          0.93717                    0             0.00049698    
+    {'nf_ood'     }    0.02    1996      1.9968          0.99499             0.045317               0.046593    
+    {'nf_ood'     }    0.05    1996      1.9968          0.99098             0.045163                0.04676    
+    {'nf_ood'     }    0.08    1996      1.9968          0.98597             0.043869               0.046777    
+    {'nf_ood'     }    0.12    1996      1.9968          0.97595             0.043121               0.047011    
+    {'gap_ood'    }    0.02    2348      6.4086           0.9983                    0             1.4196e-05    
+    {'gap_ood'    }    0.05    2348      6.4086          0.99404                    0             8.5179e-05    
+    {'gap_ood'    }    0.08    2348      6.4086          0.99063                    0             8.5179e-05    
+    {'gap_ood'    }    0.12    2348      6.4086          0.98424                    0             0.00018455    
+    {'snr_gap_ood'}    0.02     619      2.3447          0.99515             0.076299               0.077544    
+    {'snr_gap_ood'}    0.05     619      2.3447          0.99515             0.076299               0.077544    
+    {'snr_gap_ood'}    0.08     619      2.3447          0.99192             0.074919               0.078352    
+    {'snr_gap_ood'}    0.12     619      2.3447          0.99192             0.074919               0.079052    
+
+
+================ HIGH-SNR CONDITIONAL MECHANISM =================
+[警告: run_highsnr_analysis_from_results: too few valid samples. Returning empty tables.] 
+[> 位置：<a href="matlab:matlab.lang.internal.introspective.errorDocCallback('untitled3>run_highsnr_analysis_from_results', 'D:\重要信息\数学建模\2025年华为数学建模B\代码--数据处理\最新代码\untitled3.m', 4659)" style="font-weight:bold">untitled3>run_highsnr_analysis_from_results</a> (<a href="matlab: opentoline('D:\重要信息\数学建模\2025年华为数学建模B\代码--数据处理\最新代码\untitled3.m',4659,0)">第 4659 行</a>)
+位置: <a href="matlab:matlab.lang.internal.introspective.errorDocCallback('untitled3', 'D:\重要信息\数学建模\2025年华为数学建模B\代码--数据处理\最新代码\untitled3.m', 674)" style="font-weight:bold">untitled3</a> (<a href="matlab: opentoline('D:\重要信息\数学建模\2025年华为数学建模B\代码--数据处理\最新代码\untitled3.m',674,0)">第 674 行</a>)] 
+
+================ SPLIT LABEL DISTRIBUTION =================
+        split        seed      side       class    level_value    count
+    _____________    ____    _________    _____    ___________    _____
+
+    "random"          0      {'train'}      0         412.9         86 
+    "random"          0      {'val'  }      0         412.9         24 
+    "random"          0      {'train'}      1         458.8        610 
+    "random"          0      {'val'  }      1         458.8        140 
+    "random"          0      {'train'}      2         516.2        732 
+    "random"          0      {'val'  }      2         516.2        174 
+    "random"          0      {'train'}      3         573.5       2330 
+    "random"          0      {'val'  }      3         573.5        601 
+    "random"          1      {'train'}      0         412.9         91 
+    "random"          1      {'val'  }      0         412.9         19 
+    "random"          1      {'train'}      1         458.8        636 
+    "random"          1      {'val'  }      1         458.8        114 
+    "random"          1      {'train'}      2         516.2        694 
+    "random"          1      {'val'  }      2         516.2        212 
+    "random"          1      {'train'}      3         573.5       2337 
+    "random"          1      {'val'  }      3         573.5        594 
+    "random"          2      {'train'}      0         412.9         89 
+    "random"          2      {'val'  }      0         412.9         21 
+    "random"          2      {'train'}      1         458.8        617 
+    "random"          2      {'val'  }      1         458.8        133 
+    "random"          2      {'train'}      2         516.2        707 
+    "random"          2      {'val'  }      2         516.2        199 
+    "random"          2      {'train'}      3         573.5       2345 
+    "random"          2      {'val'  }      3         573.5        586 
+    "nf_ood"          0      {'train'}      0         412.9        101 
+    "nf_ood"          0      {'val'  }      0         412.9          9 
+    "nf_ood"          0      {'train'}      1         458.8        626 
+    "nf_ood"          0      {'val'  }      1         458.8        124 
+    "nf_ood"          0      {'train'}      2         516.2        650 
+    "nf_ood"          0      {'val'  }      2         516.2        256 
+    "nf_ood"          0      {'train'}      3         573.5       1324 
+    "nf_ood"          0      {'val'  }      3         573.5       1607 
+    "nf_ood"          1      {'train'}      0         412.9        101 
+    "nf_ood"          1      {'val'  }      0         412.9          9 
+    "nf_ood"          1      {'train'}      1         458.8        626 
+    "nf_ood"          1      {'val'  }      1         458.8        124 
+    "nf_ood"          1      {'train'}      2         516.2        650 
+    "nf_ood"          1      {'val'  }      2         516.2        256 
+    "nf_ood"          1      {'train'}      3         573.5       1324 
+    "nf_ood"          1      {'val'  }      3         573.5       1607 
+    "nf_ood"          2      {'train'}      0         412.9        101 
+    "nf_ood"          2      {'val'  }      0         412.9          9 
+    "nf_ood"          2      {'train'}      1         458.8        626 
+    "nf_ood"          2      {'val'  }      1         458.8        124 
+    "nf_ood"          2      {'train'}      2         516.2        650 
+    "nf_ood"          2      {'val'  }      2         516.2        256 
+    "nf_ood"          2      {'train'}      3         573.5       1324 
+    "nf_ood"          2      {'val'  }      3         573.5       1607 
+    "snr_gap_ood"     0      {'train'}      0         412.9        110 
+    "snr_gap_ood"     0      {'val'  }      0         412.9          0 
+    "snr_gap_ood"     0      {'train'}      1         458.8        748 
+    "snr_gap_ood"     0      {'val'  }      1         458.8          2 
+    "snr_gap_ood"     0      {'train'}      2         516.2        894 
+    "snr_gap_ood"     0      {'val'  }      2         516.2         12 
+    "snr_gap_ood"     0      {'train'}      3         573.5       2326 
+    "snr_gap_ood"     0      {'val'  }      3         573.5        605 
+    "snr_gap_ood"     1      {'train'}      0         412.9        110 
+    "snr_gap_ood"     1      {'val'  }      0         412.9          0 
+    "snr_gap_ood"     1      {'train'}      1         458.8        748 
+    "snr_gap_ood"     1      {'val'  }      1         458.8          2 
+    "snr_gap_ood"     1      {'train'}      2         516.2        894 
+    "snr_gap_ood"     1      {'val'  }      2         516.2         12 
+    "snr_gap_ood"     1      {'train'}      3         573.5       2326 
+    "snr_gap_ood"     1      {'val'  }      3         573.5        605 
+    "snr_gap_ood"     2      {'train'}      0         412.9        110 
+    "snr_gap_ood"     2      {'val'  }      0         412.9          0 
+    "snr_gap_ood"     2      {'train'}      1         458.8        748 
+    "snr_gap_ood"     2      {'val'  }      1         458.8          2 
+    "snr_gap_ood"     2      {'train'}      2         516.2        894 
+    "snr_gap_ood"     2      {'val'  }      2         516.2         12 
+    "snr_gap_ood"     2      {'train'}      3         573.5       2326 
+    "snr_gap_ood"     2      {'val'  }      3         573.5        605 
+    "gap_ood"         0      {'train'}      0         412.9         26 
+    "gap_ood"         0      {'val'  }      0         412.9         84 
+    "gap_ood"         0      {'train'}      1         458.8        666 
+    "gap_ood"         0      {'val'  }      1         458.8         84 
+    "gap_ood"         0      {'train'}      2         516.2        702 
+    "gap_ood"         0      {'val'  }      2         516.2        204 
+    "gap_ood"         0      {'train'}      3         573.5        955 
+    "gap_ood"         0      {'val'  }      3         573.5       1976 
+    "gap_ood"         1      {'train'}      0         412.9         26 
+    "gap_ood"         1      {'val'  }      0         412.9         84 
+    "gap_ood"         1      {'train'}      1         458.8        666 
+    "gap_ood"         1      {'val'  }      1         458.8         84 
+    "gap_ood"         1      {'train'}      2         516.2        702 
+    "gap_ood"         1      {'val'  }      2         516.2        204 
+    "gap_ood"         1      {'train'}      3         573.5        955 
+    "gap_ood"         1      {'val'  }      3         573.5       1976 
+    "gap_ood"         2      {'train'}      0         412.9         26 
+    "gap_ood"         2      {'val'  }      0         412.9         84 
+    "gap_ood"         2      {'train'}      1         458.8        666 
+    "gap_ood"         2      {'val'  }      1         458.8         84 
+    "gap_ood"         2      {'train'}      2         516.2        702 
+    "gap_ood"         2      {'val'  }      2         516.2        204 
+    "gap_ood"         2      {'train'}      3         573.5        955 
+    "gap_ood"         2      {'val'  }      3         573.5       1976 
+
+
+================ CONFUSION ANALYSIS =================
+
+================ CLASS-WISE ANALYSIS =================
+        split         method      class    level_value    support     recall     precision
+    _____________    _________    _____    ___________    _______    ________    _________
+
+    "random"         "DEG-MLP"      0         412.9          24       0.83333     0.95238 
+    "random"         "DEG-MLP"      1         458.8         140       0.91429      0.7619 
+    "random"         "DEG-MLP"      2         516.2         174       0.72414      0.8129 
+    "random"         "DEG-MLP"      3         573.5         601        0.9584     0.96807 
+    "random"         "MI-DNN"       0         412.9          24         0.875     0.95455 
+    "random"         "MI-DNN"       1         458.8         140       0.93571     0.79878 
+    "random"         "MI-DNN"       2         516.2         174       0.77586     0.83333 
+    "random"         "MI-DNN"       3         573.5         601       0.96506     0.98139 
+    "random"         "MI-ADA"       0         412.9          24             0         NaN 
+    "random"         "MI-ADA"       1         458.8         140             0         NaN 
+    "random"         "MI-ADA"       2         516.2         174             0         NaN 
+    "random"         "MI-ADA"       3         573.5         601             1     0.64004 
+    "random"         "MI-FUSE"      0         412.9          24         0.875     0.91304 
+    "random"         "MI-FUSE"      1         458.8         140       0.90714     0.80892 
+    "random"         "MI-FUSE"      2         516.2         174       0.75862     0.89189 
+    "random"         "MI-FUSE"      3         573.5         601       0.98835     0.97218 
+    "gap_ood"        "DEG-MLP"      0         412.9          84             0         NaN 
+    "gap_ood"        "DEG-MLP"      1         458.8          84       0.34524     0.31183 
+    "gap_ood"        "DEG-MLP"      2         516.2         204       0.52451     0.30484 
+    "gap_ood"        "DEG-MLP"      3         573.5        1976       0.90385     0.93803 
+    "gap_ood"        "MI-DNN"       0         412.9          84             0         NaN 
+    "gap_ood"        "MI-DNN"       1         458.8          84           0.5     0.50602 
+    "gap_ood"        "MI-DNN"       2         516.2         204       0.20588      0.1377 
+    "gap_ood"        "MI-DNN"       3         573.5        1976       0.88512     0.89235 
+    "gap_ood"        "MI-ADA"       0         412.9          84             0         NaN 
+    "gap_ood"        "MI-ADA"       1         458.8          84             0         NaN 
+    "gap_ood"        "MI-ADA"       2         516.2         204             0         NaN 
+    "gap_ood"        "MI-ADA"       3         573.5        1976             1     0.84157 
+    "gap_ood"        "MI-FUSE"      0         412.9          84             0         NaN 
+    "gap_ood"        "MI-FUSE"      1         458.8          84      0.047619    0.057143 
+    "gap_ood"        "MI-FUSE"      2         516.2         204             0           0 
+    "gap_ood"        "MI-FUSE"      3         573.5        1976       0.97419     0.84541 
+    "snr_gap_ood"    "DEG-MLP"      0         412.9           0           NaN         NaN 
+    "snr_gap_ood"    "DEG-MLP"      1         458.8           2             0         NaN 
+    "snr_gap_ood"    "DEG-MLP"      2         516.2          12             0         NaN 
+    "snr_gap_ood"    "DEG-MLP"      3         573.5         605             1     0.97738 
+    "snr_gap_ood"    "MI-DNN"       0         412.9           0           NaN         NaN 
+    "snr_gap_ood"    "MI-DNN"       1         458.8           2             0         NaN 
+    "snr_gap_ood"    "MI-DNN"       2         516.2          12          0.25           1 
+    "snr_gap_ood"    "MI-DNN"       3         573.5         605             1     0.98214 
+    "snr_gap_ood"    "MI-ADA"       0         412.9           0           NaN           0 
+    "snr_gap_ood"    "MI-ADA"       1         458.8           2             0         NaN 
+    "snr_gap_ood"    "MI-ADA"       2         516.2          12             0         NaN 
+    "snr_gap_ood"    "MI-ADA"       3         573.5         605             1     0.97896 
+    "snr_gap_ood"    "MI-FUSE"      0         412.9           0           NaN         NaN 
+    "snr_gap_ood"    "MI-FUSE"      1         458.8           2           0.5           1 
+    "snr_gap_ood"    "MI-FUSE"      2         516.2          12           0.5        0.75 
+    "snr_gap_ood"    "MI-FUSE"      3         573.5         605       0.99669     0.98852 
+    "nf_ood"         "DEG-MLP"      0         412.9           9             0         NaN 
+    "nf_ood"         "DEG-MLP"      1         458.8         124       0.65323     0.77143 
+    "nf_ood"         "DEG-MLP"      2         516.2         256       0.51562     0.62264 
+    "nf_ood"         "DEG-MLP"      3         573.5        1607       0.97013     0.92853 
+    "nf_ood"         "MI-DNN"       0         412.9           9       0.44444     0.66667 
+    "nf_ood"         "MI-DNN"       1         458.8         124       0.62097     0.62097 
+    "nf_ood"         "MI-DNN"       2         516.2         256       0.48828     0.47529 
+    "nf_ood"         "MI-DNN"       3         573.5        1607       0.91039     0.91266 
+    "nf_ood"         "MI-ADA"       0         412.9           9             0         NaN 
+    "nf_ood"         "MI-ADA"       1         458.8         124             0         NaN 
+    "nf_ood"         "MI-ADA"       2         516.2         256             0         NaN 
+    "nf_ood"         "MI-ADA"       3         573.5        1607             1     0.80511 
+    "nf_ood"         "MI-FUSE"      0         412.9           9       0.55556     0.71429 
+    "nf_ood"         "MI-FUSE"      1         458.8         124       0.82258     0.64968 
+    "nf_ood"         "MI-FUSE"      2         516.2         256       0.45312     0.39726 
+    "nf_ood"         "MI-FUSE"      3         573.5        1607       0.88923     0.92792 
+
+[警告: 导出的图像显示了坐标区工具栏。要从图像中删除坐标区工具栏，请再次导出。] 
+
+================ RELIABILITY ANALYSIS =================
+        split           method       bin    mean_conf    mean_acc    count
+    _____________    ____________    ___    _________    ________    _____
+
+    "random"         "FEATURE"        6      0.37854            1       3 
+    "random"         "FEATURE"        7      0.43901          0.7      10 
+    "random"         "FEATURE"        8      0.50006      0.64865      37 
+    "random"         "FEATURE"        9      0.56497      0.73171      41 
+    "random"         "FEATURE"       10      0.63789      0.71795      39 
+    "random"         "FEATURE"       11      0.69991        0.675      40 
+    "random"         "FEATURE"       12      0.76844      0.71111      45 
+    "random"         "FEATURE"       13      0.83528      0.83951      81 
+    "random"         "FEATURE"       14      0.90119      0.94872     117 
+    "random"         "FEATURE"       15      0.98679      0.98859     526 
+    "random"         "E2E"            7      0.44965          0.5       2 
+    "random"         "E2E"            8       0.5025      0.69231      13 
+    "random"         "E2E"            9      0.56545          0.5      16 
+    "random"         "E2E"           10      0.63317         0.75      36 
+    "random"         "E2E"           11      0.70289      0.71429      42 
+    "random"         "E2E"           12      0.76949      0.71429      56 
+    "random"         "E2E"           13      0.83704      0.93023      86 
+    "random"         "E2E"           14      0.90544      0.94017     117 
+    "random"         "E2E"           15      0.98167      0.98424     571 
+    "random"         "OURSNOB"        6      0.37073          0.5       2 
+    "random"         "OURSNOB"        7      0.44205      0.16667       6 
+    "random"         "OURSNOB"        8      0.50462     0.095238      21 
+    "random"         "OURSNOB"        9      0.57125      0.18182      11 
+    "random"         "OURSNOB"       10       0.6386            0      18 
+    "random"         "OURSNOB"       11      0.70634      0.16667      24 
+    "random"         "OURSNOB"       12      0.77041      0.24324      37 
+    "random"         "OURSNOB"       13      0.83198      0.34667      75 
+    "random"         "OURSNOB"       14      0.90475      0.52532     158 
+    "random"         "OURSNOB"       15       0.9802      0.80579     587 
+    "random"         "OURSFUSION"     7      0.42525      0.33333       3 
+    "random"         "OURSFUSION"     8      0.49809      0.43478      23 
+    "random"         "OURSFUSION"     9        0.566      0.75862      29 
+    "random"         "OURSFUSION"    10       0.6349      0.67742      31 
+    "random"         "OURSFUSION"    11      0.69842      0.78378      37 
+    "random"         "OURSFUSION"    12      0.76991      0.86842      38 
+    "random"         "OURSFUSION"    13      0.83332      0.89583      48 
+    "random"         "OURSFUSION"    14      0.89962      0.93151      73 
+    "random"         "OURSFUSION"    15      0.99128      0.98478     657 
+    "gap_ood"        "FEATURE"        5      0.32271            1       4 
+    "gap_ood"        "FEATURE"        6      0.36529      0.34783      23 
+    "gap_ood"        "FEATURE"        7      0.43823        0.175      80 
+    "gap_ood"        "FEATURE"        8      0.50012        0.325      80 
+    "gap_ood"        "FEATURE"        9      0.56761      0.48214      56 
+    "gap_ood"        "FEATURE"       10      0.63278       0.4386      57 
+    "gap_ood"        "FEATURE"       11      0.69781      0.53333      60 
+    "gap_ood"        "FEATURE"       12      0.76604       0.5625      48 
+    "gap_ood"        "FEATURE"       13      0.83443      0.66667      63 
+    "gap_ood"        "FEATURE"       14      0.90397      0.65854      82 
+    "gap_ood"        "FEATURE"       15      0.99407      0.92646    1795 
+    "gap_ood"        "E2E"            5      0.31002            0       2 
+    "gap_ood"        "E2E"            6      0.37967      0.44444      18 
+    "gap_ood"        "E2E"            7      0.43406      0.53333      45 
+    "gap_ood"        "E2E"            8      0.50188      0.46154      91 
+    "gap_ood"        "E2E"            9      0.56509      0.39506      81 
+    "gap_ood"        "E2E"           10      0.63195      0.48889      90 
+    "gap_ood"        "E2E"           11       0.6994      0.53608      97 
+    "gap_ood"        "E2E"           12      0.76868      0.71528     144 
+    "gap_ood"        "E2E"           13        0.833      0.71795     195 
+    "gap_ood"        "E2E"           14       0.9007      0.84556     259 
+    "gap_ood"        "E2E"           15      0.98704       0.8816    1326 
+    "gap_ood"        "OURSNOB"        5      0.30742            1       1 
+    "gap_ood"        "OURSNOB"        6      0.38766      0.26923      52 
+    "gap_ood"        "OURSNOB"        7      0.42794       0.5381     210 
+    "gap_ood"        "OURSNOB"        8      0.50068      0.39899     198 
+    "gap_ood"        "OURSNOB"        9      0.56628       0.5473     148 
+    "gap_ood"        "OURSNOB"       10      0.63408      0.87565     193 
+    "gap_ood"        "OURSNOB"       11      0.70184         0.96     425 
+    "gap_ood"        "OURSNOB"       12      0.76707      0.97486     358 
+    "gap_ood"        "OURSNOB"       13      0.83671            1     202 
+    "gap_ood"        "OURSNOB"       14      0.90763      0.99732     373 
+    "gap_ood"        "OURSNOB"       15      0.94461            1     188 
+    "gap_ood"        "OURSFUSION"     5      0.31793      0.80645      31 
+    "gap_ood"        "OURSFUSION"     6      0.36617      0.52318     151 
+    "gap_ood"        "OURSFUSION"     7      0.43131      0.36719     128 
+    "gap_ood"        "OURSFUSION"     8      0.49926      0.54762      84 
+    "gap_ood"        "OURSFUSION"     9      0.56523      0.54375     160 
+    "gap_ood"        "OURSFUSION"    10      0.63383      0.60526     152 
+    "gap_ood"        "OURSFUSION"    11      0.70066      0.73793     145 
+    "gap_ood"        "OURSFUSION"    12      0.76899      0.88614     202 
+    "gap_ood"        "OURSFUSION"    13      0.83272      0.93625     251 
+    "gap_ood"        "OURSFUSION"    14       0.9001      0.99003     301 
+    "gap_ood"        "OURSFUSION"    15      0.97887      0.98789     743 
+    "snr_gap_ood"    "FEATURE"        8      0.49451            1       2 
+    "snr_gap_ood"    "FEATURE"        9      0.57245            1      10 
+    "snr_gap_ood"    "FEATURE"       10       0.6438      0.89474      19 
+    "snr_gap_ood"    "FEATURE"       11      0.70003      0.91304      23 
+    "snr_gap_ood"    "FEATURE"       12      0.77216      0.96875      64 
+    "snr_gap_ood"    "FEATURE"       13      0.82938      0.96296     108 
+    "snr_gap_ood"    "FEATURE"       14      0.90428      0.99342     152 
+    "snr_gap_ood"    "FEATURE"       15      0.98241      0.98755     241 
+    "snr_gap_ood"    "E2E"            5      0.32631          0.5       2 
+    "snr_gap_ood"    "E2E"            6      0.36866      0.95425     153 
+    "snr_gap_ood"    "E2E"            7      0.42124            1      34 
+    "snr_gap_ood"    "E2E"            8      0.50629            1       7 
+    "snr_gap_ood"    "E2E"            9      0.56134            1       7 
+    "snr_gap_ood"    "E2E"           10      0.62545            1       5 
+    "snr_gap_ood"    "E2E"           11       0.7097            1       5 
+    "snr_gap_ood"    "E2E"           12      0.77408            1      15 
+    "snr_gap_ood"    "E2E"           13      0.83306            1      27 
+    "snr_gap_ood"    "E2E"           14      0.90542            1      77 
+    "snr_gap_ood"    "E2E"           15      0.98981      0.98955     287 
+    "snr_gap_ood"    "OURSNOB"        6      0.38924            0       1 
+    "snr_gap_ood"    "OURSNOB"        7       0.4297            1       1 
+    "snr_gap_ood"    "OURSNOB"        8      0.51842            1       3 
+    "snr_gap_ood"    "OURSNOB"        9      0.56847            1       9 
+    "snr_gap_ood"    "OURSNOB"       10      0.64091      0.96591      88 
+    "snr_gap_ood"    "OURSNOB"       11      0.69506      0.81818      33 
+    "snr_gap_ood"    "OURSNOB"       12      0.77339      0.97872      47 
+    "snr_gap_ood"    "OURSNOB"       13      0.82729      0.98077      52 
+    "snr_gap_ood"    "OURSNOB"       14      0.89832            1      60 
+    "snr_gap_ood"    "OURSNOB"       15      0.97519      0.99385     325 
+    "snr_gap_ood"    "OURSFUSION"     7      0.43009      0.66667       3 
+    "snr_gap_ood"    "OURSFUSION"     8      0.49485            1       8 
+    "snr_gap_ood"    "OURSFUSION"     9      0.56949         0.92      25 
+    "snr_gap_ood"    "OURSFUSION"    10      0.63177      0.96552      29 
+    "snr_gap_ood"    "OURSFUSION"    11      0.69811            1      48 
+    "snr_gap_ood"    "OURSFUSION"    12      0.76392            1      38 
+    "snr_gap_ood"    "OURSFUSION"    13      0.83465      0.97826      46 
+    "snr_gap_ood"    "OURSFUSION"    14      0.90473      0.98214      56 
+    "snr_gap_ood"    "OURSFUSION"    15      0.98743       0.9918     366 
+    "nf_ood"         "FEATURE"        6      0.35625            0       4 
+    "nf_ood"         "FEATURE"        7      0.44616          0.6      15 
+    "nf_ood"         "FEATURE"        8      0.50292          0.6      60 
+    "nf_ood"         "FEATURE"        9      0.56593      0.47887      71 
+    "nf_ood"         "FEATURE"       10      0.63402      0.63158      76 
+    "nf_ood"         "FEATURE"       11      0.69849      0.69355      62 
+    "nf_ood"         "FEATURE"       12      0.76729      0.79121      91 
+    "nf_ood"         "FEATURE"       13      0.83048      0.75904      83 
+    "nf_ood"         "FEATURE"       14      0.90358      0.79048     105 
+    "nf_ood"         "FEATURE"       15       0.9907      0.96851    1429 
+    "nf_ood"         "E2E"            6      0.38443       0.3125      16 
+    "nf_ood"         "E2E"            7      0.43748      0.52174      46 
+    "nf_ood"         "E2E"            8      0.50435      0.80882      68 
+    "nf_ood"         "E2E"            9      0.56639      0.76119      67 
+    "nf_ood"         "E2E"           10      0.63267      0.80303      66 
+    "nf_ood"         "E2E"           11      0.70083       0.8375      80 
+    "nf_ood"         "E2E"           12      0.76572      0.78431     102 
+    "nf_ood"         "E2E"           13      0.83283      0.85714     126 
+    "nf_ood"         "E2E"           14      0.90229       0.8299     194 
+    "nf_ood"         "E2E"           15      0.98488      0.86515    1231 
+    "nf_ood"         "OURSNOB"        6      0.38745            1       1 
+    "nf_ood"         "OURSNOB"       10      0.63357            0       3 
+    "nf_ood"         "OURSNOB"       11      0.71542            0      15 
+    "nf_ood"         "OURSNOB"       12      0.77161     0.038462      52 
+    "nf_ood"         "OURSNOB"       13      0.83737       0.1236      89 
+    "nf_ood"         "OURSNOB"       14      0.90175      0.43033     244 
+    "nf_ood"         "OURSNOB"       15      0.98653      0.93467    1592 
+    "nf_ood"         "OURSFUSION"     6      0.38159      0.19355      31 
+    "nf_ood"         "OURSFUSION"     7      0.43866      0.57778      90 
+    "nf_ood"         "OURSFUSION"     8       0.4998      0.68182     110 
+    "nf_ood"         "OURSFUSION"     9      0.56278       0.7191      89 
+    "nf_ood"         "OURSFUSION"    10      0.63136      0.81944      72 
+    "nf_ood"         "OURSFUSION"    11      0.69968       0.8375      80 
+    "nf_ood"         "OURSFUSION"    12      0.77052      0.85542      83 
+    "nf_ood"         "OURSFUSION"    13      0.83382      0.80702     114 
+    "nf_ood"         "OURSFUSION"    14      0.90405      0.77143     140 
+    "nf_ood"         "OURSFUSION"    15      0.98627      0.89132    1187 
+
+[警告: 导出的图像显示了坐标区工具栏。要从图像中删除坐标区工具栏，请再次导出。] 
+
+================ RISK-COVERAGE ANALYSIS =================
+
+================ FUSION ABLATION =================
+        split        frac       ablation       nRuns    acc_mean     acc_std     mae_mean    highMiss_mean    ece_mean    goodput_norm_mean    train_s_mean    infer_us_mean    delta_acc_vs_FULL    delta_highMiss_vs_FULL    delta_gp_vs_FULL
+    _____________    ____    ______________    _____    ________    _________    ________    _____________    ________    _________________    ____________    _____________    _________________    ______________________    ________________
+
+    "gap_ood"         1      "DATA_ONLY"         3      0.80792     0.0075709     0.28095       0.066802       0.10592         0.88582            13.713          4.4232             -0.025128               0.044534               0.010437   
+    "gap_ood"         1      "FULL"              3      0.83305      0.011016     0.26519       0.022267      0.079311         0.87539            11.209          4.1404                     0                      0                      0   
+    "gap_ood"         1      "NO_B"              3      0.83518      0.015196     0.26221       0.018387      0.094207         0.87623            10.808          4.1608             0.0021295             -0.0038799             0.00084479   
+    "gap_ood"         1      "NO_DEEPFADE"       3      0.83447      0.012412     0.26249       0.019737      0.094483         0.87539            10.699          4.0386             0.0014196             -0.0025304            -1.7788e-07   
+    "gap_ood"         1      "NO_PRIOR_ALL"      3      0.81928     0.0086062      0.2879       0.039305      0.093856         0.87479            10.139          4.1284             -0.013771               0.017038            -0.00059708   
+    "gap_ood"         1      "PHYS_ONLY"         3      0.86882      0.018985     0.14637       0.023279       0.07566         0.90927            14.586          4.3121              0.035775              0.0010121               0.033886   
+    "nf_ood"          1      "DATA_ONLY"         3      0.82699      0.023351     0.21643        0.06368       0.10907         0.91012            28.332          4.5072             -0.052438               0.032773              -0.015938   
+    "nf_ood"          1      "FULL"              3      0.87943      0.029386     0.12659       0.030906      0.063126         0.92606            26.177          4.9596                     0                      0                      0   
+    "nf_ood"          1      "NO_B"              3      0.86556     0.0017595     0.13794        0.07737      0.098572          0.9409             36.84          4.8675             -0.013861               0.046463               0.014838   
+    "nf_ood"          1      "NO_DEEPFADE"       3      0.89462      0.022791     0.10888       0.036507      0.069706         0.94096            48.102          5.3444              0.015197              0.0056005               0.014903   
+    "nf_ood"          1      "NO_PRIOR_ALL"      3      0.86356     0.0054958     0.14178       0.054968      0.070076          0.9244             34.45          4.2906             -0.015865               0.024061             -0.0016548   
+    "nf_ood"          1      "PHYS_ONLY"         3      0.88577     0.0045918     0.12308       0.015557      0.048713         0.92067            37.134          4.7276              0.006346               -0.01535             -0.0053909   
+    "random"          1      "DATA_ONLY"         3      0.91729      0.012705    0.086972       0.024097      0.026702         0.96649             67.31          6.9147            -0.0042599             -0.0044544              0.0002548   
+    "random"          1      "FULL"              3      0.92155      0.014769    0.081292       0.028551      0.021664         0.96624            57.378          8.3345                     0                      0                      0   
+    "random"          1      "NO_B"              3      0.92226      0.011067    0.079517       0.024033      0.026077          0.9681            70.473          8.3333            0.00070998             -0.0045177              0.0018599   
+    "random"          1      "NO_DEEPFADE"       3      0.92758      0.012556    0.074192       0.017962      0.025121         0.96815            72.789          7.5834             0.0060348              -0.010589              0.0019105   
+    "random"          1      "NO_PRIOR_ALL"      3      0.92084       0.01197    0.082002       0.022406      0.022825          0.9672            59.296          9.7053           -0.00070998             -0.0061456             0.00096605   
+    "random"          1      "PHYS_ONLY"         3      0.88995      0.011084     0.11537       0.036497      0.026088          0.9526            79.111          8.4554             -0.031594              0.0079462              -0.013638   
+    "snr_gap_ood"     1      "DATA_ONLY"         3      0.98169     0.0046636    0.019925     0.00055096        0.1193         0.98407            17.641          9.2957              0.001077             -0.0016529            -0.00032413   
+    "snr_gap_ood"     1      "FULL"              3      0.98061     0.0042742     0.02154      0.0022039       0.12826          0.9844            19.299          8.9734                     0                      0                      0   
+    "snr_gap_ood"     1      "NO_B"              3      0.98169     0.0046636    0.019925      0.0011019       0.12275         0.98456            18.854           10.73              0.001077             -0.0011019             0.00016192   
+    "snr_gap_ood"     1      "NO_DEEPFADE"       3      0.98169     0.0046636    0.019925      0.0016529       0.13591         0.98494            17.965          12.031              0.001077            -0.00055096              0.0005399   
+    "snr_gap_ood"     1      "NO_PRIOR_ALL"      3      0.98061     0.0016155    0.021002      0.0011019       0.10657         0.98364            18.202          9.5561                     0             -0.0011019            -0.00075595   
+    "snr_gap_ood"     1      "PHYS_ONLY"         3      0.97738             0    0.025848              0       0.40973         0.97991            13.369          10.732             -0.003231             -0.0022039             -0.0044817   
+
+
+================ BOOTSTRAP CI =================
+        split           method            metric            mean        ci_low       ci_high  
+    _____________    ____________    ________________    __________    _________    __________
+
+    "random"         "FEATURE"       {'acc'         }       0.90451      0.89244       0.91587
+    "random"         "FEATURE"       {'highMiss'    }      0.035897     0.032423      0.041597
+    "random"         "FEATURE"       {'goodput_norm'}       0.96056      0.95387       0.96667
+    "random"         "E2E"           {'acc'         }       0.91977      0.90628       0.92971
+    "random"         "E2E"           {'highMiss'    }      0.024085     0.016835      0.034942
+    "random"         "E2E"           {'goodput_norm'}       0.96909      0.96151       0.97436
+    "random"         "OURSNOB"       {'acc'         }       0.63188        0.623       0.64004
+    "random"         "OURSNOB"       {'highMiss'    }    0.00056883            0     0.0017065
+    "random"         "OURSNOB"       {'goodput_norm'}       0.66917      0.66223       0.67765
+    "random"         "OURSFUSION"    {'acc'         }        0.9219      0.90415       0.93078
+    "random"         "OURSFUSION"    {'highMiss'    }      0.017435     0.011647      0.021886
+    "random"         "OURSFUSION"    {'goodput_norm'}       0.96541      0.96039        0.9684
+    "gap_ood"        "FEATURE"       {'acc'         }       0.81687      0.79003       0.84199
+    "gap_ood"        "FEATURE"       {'highMiss'    }      0.054487            0      0.096154
+    "gap_ood"        "FEATURE"       {'goodput_norm'}       0.88043       0.8643       0.91166
+    "gap_ood"        "E2E"           {'acc'         }       0.79912      0.78634       0.81899
+    "gap_ood"        "E2E"           {'highMiss'    }      0.090924      0.07085       0.11488
+    "gap_ood"        "E2E"           {'goodput_norm'}       0.89427      0.89285       0.89673
+    "gap_ood"        "OURSNOB"       {'acc'         }       0.84143      0.84114       0.84157
+    "gap_ood"        "OURSNOB"       {'highMiss'    }    0.00016869            0    0.00050607
+    "gap_ood"        "OURSNOB"       {'goodput_norm'}       0.86397      0.86378       0.86422
+    "gap_ood"        "OURSFUSION"    {'acc'         }       0.81545      0.80792       0.82155
+    "gap_ood"        "OURSFUSION"    {'highMiss'    }      0.032726      0.02581      0.041498
+    "gap_ood"        "OURSFUSION"    {'goodput_norm'}       0.86479      0.86377       0.86539
+    "snr_gap_ood"    "FEATURE"       {'acc'         }       0.97684      0.97577       0.97738
+    "snr_gap_ood"    "FEATURE"       {'highMiss'    }    0.00055096            0     0.0016529
+    "snr_gap_ood"    "FEATURE"       {'goodput_norm'}       0.97986      0.97975       0.97991
+    "snr_gap_ood"    "E2E"           {'acc'         }       0.97792      0.97254       0.98223
+    "snr_gap_ood"    "E2E"           {'highMiss'    }     0.0016529            0     0.0049587
+    "snr_gap_ood"    "E2E"           {'goodput_norm'}       0.98164      0.97943       0.98429
+    "snr_gap_ood"    "OURSNOB"       {'acc'         }       0.97738      0.97738       0.97738
+    "snr_gap_ood"    "OURSNOB"       {'highMiss'    }             0            0             0
+    "snr_gap_ood"    "OURSNOB"       {'goodput_norm'}        0.9803      0.97991       0.98108
+    "snr_gap_ood"    "OURSFUSION"    {'acc'         }       0.98169        0.979       0.98546
+    "snr_gap_ood"    "OURSFUSION"    {'highMiss'    }     0.0016529            0     0.0033058
+    "snr_gap_ood"    "OURSFUSION"    {'goodput_norm'}       0.98494      0.98121       0.98963
+    "nf_ood"         "FEATURE"       {'acc'         }        0.8978      0.88778       0.90431
+    "nf_ood"         "FEATURE"       {'highMiss'    }      0.023024     0.016179      0.029869
+    "nf_ood"         "FEATURE"       {'goodput_norm'}       0.93288      0.92626       0.93674
+    "nf_ood"         "E2E"           {'acc'         }       0.85304      0.83617       0.86273
+    "nf_ood"         "E2E"           {'highMiss'    }      0.082763      0.07654      0.089608
+    "nf_ood"         "E2E"           {'goodput_norm'}       0.93572       0.9221       0.94619
+    "nf_ood"         "OURSNOB"       {'acc'         }       0.80478      0.80411       0.80511
+    "nf_ood"         "OURSNOB"       {'highMiss'    }    0.00041485            0     0.0012446
+    "nf_ood"         "OURSNOB"       {'goodput_norm'}       0.82743      0.82703       0.82822
+    "nf_ood"         "OURSFUSION"    {'acc'         }        0.8649      0.82766       0.90932
+    "nf_ood"         "OURSFUSION"    {'highMiss'    }      0.067413    0.0093342       0.11077
+    "nf_ood"         "OURSFUSION"    {'goodput_norm'}       0.93365       0.9302        0.9361
+
+
+================ EXPORT ALL RESULTS TO EXCEL =================
+Excel exported: runs_out\20260324_152636\results_five_methods.xlsx
+
+All outputs saved to:
+runs_out\20260324_152636
+
+Done.
